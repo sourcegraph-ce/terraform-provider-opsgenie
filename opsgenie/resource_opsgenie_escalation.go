@@ -3,7 +3,7 @@ package opsgenie
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/opsgenie/opsgenie-go-sdk-v2/og"

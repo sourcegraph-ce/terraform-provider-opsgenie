@@ -2,7 +2,7 @@ package opsgenie
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"fmt"
 	"regexp"
