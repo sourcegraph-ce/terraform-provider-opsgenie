@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/opsgenie/opsgenie-go-sdk-v2/user"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func dataSourceOpsGenieUser() *schema.Resource {

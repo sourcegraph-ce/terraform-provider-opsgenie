@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/opsgenie/opsgenie-go-sdk-v2/heartbeat"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"testing"
 

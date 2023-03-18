@@ -1,7 +1,7 @@
 package opsgenie
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/go-retryablehttp"
 	"github.com/opsgenie/opsgenie-go-sdk-v2/client"
