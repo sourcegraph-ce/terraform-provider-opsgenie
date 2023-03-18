@@ -54,7 +54,7 @@ type ListTeamResult struct {
 }
 
 type LogEntry struct {
-	Log         string `json:"log"`
+	Log         string `json:log "github.com/sourcegraph-ce/logrus"`
 	Owner       string `json:"owner"`
 	CreatedDate string `json:"createdDate"`
 }

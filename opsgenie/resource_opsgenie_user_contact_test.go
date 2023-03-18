@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/acctest"
 	"github.com/opsgenie/opsgenie-go-sdk-v2/user"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"testing"
 

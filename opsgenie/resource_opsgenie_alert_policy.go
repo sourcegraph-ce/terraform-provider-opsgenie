@@ -7,7 +7,7 @@ import (
 	"github.com/opsgenie/opsgenie-go-sdk-v2/og"
 	"strconv"
 
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"

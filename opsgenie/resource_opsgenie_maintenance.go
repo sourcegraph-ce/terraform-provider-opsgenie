@@ -3,7 +3,7 @@ package opsgenie
 import (
 	"context"
 	"errors"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/opsgenie/opsgenie-go-sdk-v2/maintenance"

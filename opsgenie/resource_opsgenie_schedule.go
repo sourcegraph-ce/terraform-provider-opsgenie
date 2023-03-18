@@ -2,7 +2,7 @@ package opsgenie
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/opsgenie/opsgenie-go-sdk-v2/og"
 	"github.com/opsgenie/opsgenie-go-sdk-v2/schedule"
